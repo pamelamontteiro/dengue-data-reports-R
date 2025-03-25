@@ -1,0 +1,244 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Relatório Informativo sobre Dengue},
+  pdfauthor={Vigilância Epidemiológica do Estado de Rosas},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Relatório Informativo sobre Dengue}
+\author{Vigilância Epidemiológica do Estado de Rosas}
+\date{2022-07-11}
+
+\begin{document}
+\maketitle
+
+\subsection{Sobre}\label{sobre}
+
+O \textbf{Departamento de Vigilância Epidemiológica do Estado de Rosas},
+por meio deste boletim informativo\textsuperscript{1}, apresenta
+informações gerais sobre a dengue\textsuperscript{2}, assim como uma
+breve análise dos dados históricos relativos à situação epidemiológica
+da dengue no Estado de Rosas. Entre 2007 e 2012, o município registrou
+12781 casos confirmados de dengue e 570 óbitos. A distribuição dos casos
+confirmados por semana epidemiológica é apresentada na \emph{Figura 1}.
+O número de casos por classificação final são apresentados na
+\emph{Tabela 1}.
+
+~
+
+~
+
+\includegraphics[width=1\textwidth,height=\textheight]{Imagens/dengue.png}
+
+\textsuperscript{1} Este relatório foi produzido utilizando a linguagem
+\texttt{RMarkdown}.
+
+\textsuperscript{2} As informações sobre esta doença foram baseadas em
+conteúdo disponibilizado pelo Ministério da Saúde. Para obter mais
+informações, acesse
+\href{https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue}{este
+link}.
+
+\newpage
+
+\subsection{Introdução}\label{introduuxe7uxe3o}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  O que é Dengue
+\end{enumerate}
+
+A dengue é a arbovirose urbana mais prevalente nas Américas,
+principalmente no Brasil. É uma doença febril que tem se mostrado de
+grande importância em saúde pública nos últimos anos. O vírus dengue
+(DENV) é um arbovírus transmitido pela picada da fêmea do mosquito
+\emph{Aedes aegypti} e possui quatro sorotipos diferentes (DENV-1,
+DENV-2, DENV-3 e DENV-4).
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\tightlist
+\item
+  Principais Sintomas
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Febre alta \textgreater{} 38°C.
+\item
+  Dor no corpo e articulações
+\item
+  Dor atrás dos olhos.
+\item
+  Mal estar.
+\item
+  Falta de apetite.
+\item
+  Dor de cabeça.
+\item
+  Manchas vermelhas no corpo.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Transmissão
+\end{enumerate}
+
+O vírus da dengue (DENV) pode ser transmitido ao homem principalmente
+por via vetorial, pela picada de fêmeas de \emph{Aedes aegypti}
+infectadas, no ciclo urbano humano--vetor--humano. Os relatos de
+transmissão por via vertical (de mãe para filho durante a gestação) e
+transfusional são raros.
+
+\begin{enumerate}
+\def\labelenumi{\roman{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Diagnóstico
+\end{enumerate}
+
+\begin{itemize}
+\item
+  Métodos diretos
+
+  \begin{itemize}
+  \item
+    Pesquisa de vírus (isolamento viral por inoculação em células);
+  \item
+    Pesquisa de genoma do vírus da dengue por transcrição reversa
+    seguida de reação em cadeia da polimerase (RT-PCR);
+  \end{itemize}
+\item
+  Métodos indiretos
+
+  \begin{itemize}
+  \item
+    Pesquisa de anticorpos IgM por testes sorológicos (ensaio
+    imunoenzimático -- ELISA)
+  \item
+    Teste de neutralização por redução de placas (PRNT);
+  \item
+    Inibição da hemaglutinação (IH);
+  \item
+    Pesquisa de antígeno NS1 (ensaio imunoenzimático -- ELISA);
+  \item
+    Patologia: estudo anatomopatológico seguido de pesquisa de antígenos
+    virais por imuno-histoquímica (IHQ).
+  \end{itemize}
+\end{itemize}
+
+\newpage
+
+\subsection{Análises}\label{anuxe1lises}
+
+\subsubsection{1. Distribuição de casos por semana
+epidemiológica}\label{distribuiuxe7uxe3o-de-casos-por-semana-epidemioluxf3gica}
+
+\includegraphics{exemplo_final_files/figure-latex/unnamed-chunk-1-1.pdf}
+
+\newpage
+
+\subsubsection{2. Número de casos por classificação
+final}\label{nuxfamero-de-casos-por-classificauxe7uxe3o-final}
+
+\begin{longtable}[t]{rrrrr}
+\toprule
+Ano & Cura & Óbito & Outro & Ignorado\\
+\midrule
+1993 & 0 & 0 & 1 & 0\\
+2001 & 0 & 0 & 1 & 0\\
+2003 & 1 & 0 & 0 & 0\\
+2005 & 1 & 0 & 0 & 0\\
+2007 & 347 & 27 & 1074 & 50\\
+\addlinespace
+2008 & 1164 & 453 & 4751 & 219\\
+2009 & 29 & 7 & 166 & 8\\
+2010 & 86 & 30 & 105 & 13\\
+2011 & 3584 & 52 & 541 & 45\\
+2012 & 18 & 1 & 2 & 5\\
+\bottomrule
+\end{longtable}
+
+\end{document}
