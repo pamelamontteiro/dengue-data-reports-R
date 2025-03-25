@@ -304,4 +304,4 @@ rmarkdown::render("seu_arquivo.Rmd")
 
 | Código  | PDF do Relatorio | 
 | ------  | :-----------------------: 
-| Codigo.Rmd | [Relatorio de casos da Dengue](https://github.com/pamelamontteiro/UFSC/tree/main/EEL5105) | 1° Fase| [Jogo das sequencias](https://github.com/pamelamontteiro/UFSC/tree/main/EEL5105/Jogo%20das%20sequencias)|
+| [Codigo.Rmd](https://github.com/pamelamontteiro/dengue-data-reports-R/blob/main/src/Relatorio_dengue_rosas.Rmd)| [Relatorio de casos da Dengue](https://github.com/pamelamontteiro/dengue-data-reports-R/blob/main/src/Relatorio_dengue_rosas.pdf)
