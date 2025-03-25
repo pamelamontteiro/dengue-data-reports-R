@@ -1,8 +1,24 @@
+
+
 # Produção Automatizada de Relatórios na Vigilância em Saúde (Dengue) com linguagem R
 
 Este repositório contém scripts e recursos para a geração automatizada de relatórios sobre a vigilância epidemiológica da dengue utilizando a linguagem R. O projeto visa facilitar a análise e visualização de dados por meio de relatórios dinâmicos, gráficos e dashboards interativos.
 
-# Principais funcionalidades:
+<div align="center">
+    <div style="display: flex; align-items: center;">
+        <img src="img/1.png">
+    </div>
+</div>
+
+<br><br>
+
+| Código  | PDF do Relatorio | 
+| ------  | :-----------------------: 
+| [Codigo.Rmd](https://github.com/pamelamontteiro/dengue-data-reports-R/blob/main/src/Relatorio_dengue_rosas.Rmd)| [Relatorio de casos da Dengue](https://github.com/pamelamontteiro/dengue-data-reports-R/blob/main/src/Relatorio_dengue_rosas.pdf)
+
+<br>
+
+### Principais funcionalidades:
 
 *   Processamento e limpeza de dados epidemiológicos.
 
@@ -13,20 +29,20 @@ Este repositório contém scripts e recursos para a geração automatizada de re
 *   Análises estatísticas e espaciais relacionadas à incidência da dengue.
 
 
-# Transformando suas análises de dados em relatórios automatizados
+### Transformando suas análises de dados em relatórios automatizados
 
 1. utilizar o Rmarkdown para automatizar a produção de relatórios;
 2. organizar suas rotinas de análises em relatórios dinâmicos (interativos);
 3. criar relatórios com análises complexas;
 4. salvar seus relatórios no formato .pdf, .html, e .docx de forma mais ágil.
 
-# 1 Como escrever um relatório automatizado?
+# 1. Como escrever um relatório automatizado?
 
 A produção diária de relatórios na vigilância em saúde pode ser desgastante devido à alta demanda e urgência das solicitações vindas de diferentes setores. Durante períodos críticos, como epidemias de dengue ou a pandemia de COVID-19, a necessidade de respostas rápidas exigiu métodos eficientes para estruturar e automatizar análises.
 
 Este curso ensina como automatizar a geração de relatórios utilizando R e R Markdown, permitindo a criação de documentos dinâmicos com gráficos e tabelas gerados automaticamente. A metodologia aprendida pode ser aplicada a qualquer análise diária, garantindo rapidez e precisão na produção dos relatórios.
 
-# Tecnologias utilizadas:
+### Tecnologias utilizadas:
 
 *   R Markdown → Criação de relatórios automatizados e dinâmicos.
 
@@ -58,7 +74,7 @@ Essa abordagem permite gerar relatórios rapidamente, garantindo consistência e
 O R Markdown é extremamente útil para profissionais que precisam produzir e atualizar relatórios epidemiológicos de forma rápida e eficiente. Ele facilita a exportação automatizada de análises, gráficos e tabelas, garantindo respostas ágeis às demandas da população e gestores.
 
 
-# 2 Como criar um arquivo Rmarkdown?
+# 2. Como criar um arquivo Rmarkdown?
 
 Antes de automatizar relatórios, é necessário criar um arquivo R Markdown no RStudio. Siga os passos abaixo:
 
@@ -118,7 +134,7 @@ quatro opções:
 
 <br> 
 
-# Cabeçalho YAML no R Markdown
+### Cabeçalho YAML no R Markdown
 
 Explicação dos campos:
 1.   title: Define o título do relatório.
@@ -137,7 +153,7 @@ output: html_document
 
 ```
 
-# Trechos de Código (Code Chunks) no R Markdown
+### Trechos de Código (Code Chunks) no R Markdown
 
 
 ```R 
@@ -170,7 +186,7 @@ opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 ```
 
-# Textos e Títulos no R Markdown
+### Textos e Títulos no R Markdown
 
 1.  Títulos e Subtítulos:
 
@@ -230,7 +246,7 @@ Os títulos são criados usando hashtags (#), onde mais # indicam um título de 
 
 ```
 
-# Exemplo Completo no R Markdown
+### Exemplo Completo no R Markdown
 
 
 ```R
@@ -300,8 +316,8 @@ rmarkdown::render("seu_arquivo.Rmd")
 <br> 
 
 
-# resultado 
+# Certificações e Certificados 
 
-| Código  | PDF do Relatorio | 
-| ------  | :-----------------------: 
-| [Codigo.Rmd](https://github.com/pamelamontteiro/dengue-data-reports-R/blob/main/src/Relatorio_dengue_rosas.Rmd)| [Relatorio de casos da Dengue](https://github.com/pamelamontteiro/dengue-data-reports-R/blob/main/src/Relatorio_dengue_rosas.pdf)
+<img src="img/ABRASCO.png" alt="ABRASCO" height="80">
+   
+
